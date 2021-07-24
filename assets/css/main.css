@@ -1854,6 +1854,7 @@ input, select, textarea {
 
 /* Widgets */
 
+
 	.widget.thumbnails .grid {
 		margin: 0 0 3em 0;
 	}
@@ -1870,6 +1871,7 @@ input, select, textarea {
 		left: -4px;
 		top: 4px;
 		margin-bottom: 1.5em;
+		margin-top: 2rem;
 	}
 
 		.widget.contact ul li {
@@ -1937,12 +1939,15 @@ input, select, textarea {
 
 /* Logo */
 
+span {
+	color: white;
+}
+
 	#logo {
 		display: inline-block;
 	}
 
 		#logo h1 {
-			background: #ff4486;
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
@@ -2619,18 +2624,25 @@ input, select, textarea {
 
 			#header-wrapper {
 				padding: 3em 0 1.5em 0;
+				background: radial-gradient(#f10a0a, #861818)
 			}
 
 			#banner-wrapper {
 				padding: 0 15px 0 15px;
+				background: radial-gradient(#f10a0a, #861818)
 			}
 
 			#features-wrapper {
 				padding: 0 15px 40px 15px;
+				background-color: #BB000E;
 			}
 
 			#main-wrapper, #footer-wrapper {
 				padding: 40px 30px 40px 30px;
+			}
+
+			#footer-wrapper {
+				background-color: #BB000E
 			}
 
 		/* Logo */
@@ -2686,7 +2698,8 @@ input, select, textarea {
 			}
 
 			#copyright {
-				text-align: left;
+				text-align: center;
+				color: black;
 			}
 
 	}
@@ -3080,17 +3093,16 @@ input, select, textarea {
 	#contact h3 {
 	  display: block;
 	  font-size: 30px;
-	  font-weight: 300;
 	  margin-bottom: 10px;
-	  color: black;
+	  color: white;
 	}
 	
 	#contact h4 {
 	  margin: 5px 0 15px;
 	  display: block;
-	  font-size: 13px;
-	  font-weight: 400;
-	  color: black;
+	  font-size: 14px;
+	  font-weight: 500;
+	  color: white;
 	}
 	
 	fieldset {
@@ -3180,7 +3192,9 @@ input, select, textarea {
 
 
 
+#copyright {
 
+}
 
 
 #footer-wrapper {
