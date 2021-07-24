@@ -2586,6 +2586,7 @@ span {
 
 					.box.feature .inner {
 						padding: 30px 15px 30px 15px;
+						font-size: 1.2rem;
 					}
 
 					.box.feature p {
@@ -2687,6 +2688,7 @@ span {
 
 			#content {
 				padding-bottom: 3em;
+				font-size: 1.2rem;
 			}
 
 		/* Footer */
