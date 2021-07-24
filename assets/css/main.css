@@ -179,6 +179,7 @@ input, select, textarea {
 
 	p {
 		color: black;
+		font-weight: 600;
 	}
 
 	hr {
