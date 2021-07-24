@@ -201,7 +201,8 @@ window.onload = function () {
 
 var Modal = (function() {
 	
-	var trigger = $qsa('.modal__trigger'); // what you click to activate the modal
+	var trigger = $qsa('.modal__trigger');
+	// what you click to activate the modal
 	var modals = $qsa('.modal'); // the entire modal (takes up entire window)
 	var modalsbg = $qsa('.modal__bg'); // the entire modal (takes up entire window)
 	var content = $qsa('.modal__content'); // the inner content of the modal
