@@ -2766,7 +2766,7 @@ span {
 		margin: 0;
 		height: 0;
 		width: 0;
-		top: 0;
+		top: -9rem;
 		left: 50%;
 		transform: translate3d(0px, 254px, 0px) scale(0.28, 0.28);
 	  }
@@ -2847,11 +2847,12 @@ span {
 	  /* SPIN CSS */
 
 	.spin {
-		height: 32rem;
-		overflow: hidden;
-		background: linear-gradient( 
-			360deg
-			 , #97162d 10%, #151919 20%);
+	height: 29rem;
+    overflow: hidden;
+    background: linear-gradient( 
+360deg
+ , #97162d 2%, #151919 32%);
+    border: 1px solid black;
 	}
 
 
