@@ -1718,7 +1718,6 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		padding-left: 1em;
 	}
 
 		ul li {
@@ -2781,7 +2780,7 @@ span {
 		top: 0;
 		left: 0;
 		transition: opacity 0.5s ease;
-		opacity: 0.25;
+		opacity: 0.1;
 		color: #EEE;
 		font-size: 1.4rem;
 	  }
@@ -2849,10 +2848,9 @@ span {
 
 	.spin {
 		height: 32rem;
-		overflow: hidden;
 		background: linear-gradient( 
-360deg
- , #97162d 10%, #242c2c 20%);
+			360deg
+			 , #97162d 10%, #151919 20%);
 	}
 
 
@@ -2917,7 +2915,6 @@ span {
 		color: rgba(0,0,0,0.7);
 		line-height: 1;
 		cursor: pointer;
-		background: #ffebee;
 		box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 		-webkit-tap-highlight-color: rgba(0,0,0,0);
 		-webkit-user-select: none;
