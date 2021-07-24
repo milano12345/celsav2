@@ -2848,6 +2848,7 @@ span {
 
 	.spin {
 		height: 32rem;
+		overflow: hidden;
 		background: linear-gradient( 
 			360deg
 			 , #97162d 10%, #151919 20%);
