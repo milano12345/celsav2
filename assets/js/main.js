@@ -408,4 +408,6 @@ var Modal = (function() {
   
   Modal.init();
 
- 
+  setTimeout(function() {
+    $('#promo').fadeOut('slow');
+}, 5000);
