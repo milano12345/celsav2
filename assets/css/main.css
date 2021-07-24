@@ -2832,6 +2832,7 @@ span {
 
 	  .navbuttons .prev,
 	  .navbuttons .next {
+		text-decoration: none;
 		padding: 0.5rem 1.5rem;
 		color: white;
 		background: #222;
@@ -2847,7 +2848,7 @@ span {
 	  /* SPIN CSS */
 
 	.spin {
-	height: 29rem;
+	height: 27rem;
     overflow: hidden;
     background: linear-gradient( 
 360deg
