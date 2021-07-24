@@ -2766,7 +2766,7 @@ span {
 		margin: 0;
 		height: 0;
 		width: 0;
-		top: -9rem;
+		top: -10.3rem;
 		left: 50%;
 		transform: translate3d(0px, 254px, 0px) scale(0.28, 0.28);
 	  }
@@ -2817,7 +2817,7 @@ span {
 	  
 	  .navbuttons {
 		position: relative;
-		top: 24rem;
+		top: 10rem;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		z-index: 100;
@@ -2834,8 +2834,9 @@ span {
 	  .navbuttons .next {
 		text-decoration: none;
 		padding: 0.5rem 1.5rem;
-		color: white;
-		background: #222;
+		color: gold;
+		border: 1px solid black;
+		background: radial-gradient(#fb0404, #98070759);
 	  }
 	  .navbuttons .prev {
 		float: left;
@@ -2848,7 +2849,7 @@ span {
 	  /* SPIN CSS */
 
 	.spin {
-	height: 27rem;
+	height: 22rem;
     overflow: hidden;
     background: linear-gradient( 
 360deg
@@ -3029,6 +3030,7 @@ span {
 		background: black;
 		width: 11rem;
 		box-shadow: 0 0 0 88px grey;
+		border: 5px solid silver;
 		height: 11rem;
 		border-radius: 50%;
 		display: flex;
