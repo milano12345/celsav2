@@ -410,4 +410,4 @@ var Modal = (function() {
 
   setTimeout(function() {
     $('#promo').fadeOut('slow');
-}, 4600);
+}, 4500);
