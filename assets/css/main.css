@@ -916,6 +916,7 @@ input, select, textarea {
 
 					.row > * {
 						padding: 25px 0 0 25px;
+						text-align: center;
 					}
 
 					.row.gtr-uniform {
@@ -1405,9 +1406,7 @@ input, select, textarea {
 					margin-left: -20px;
 				}
 
-					.row > * {
-						padding: 20px 0 0 20px;
-					}
+		
 
 					.row.gtr-uniform {
 						margin-top: -20px;
@@ -3230,8 +3229,10 @@ flex-direction: column;
 #promo {
 	width: 50%!important;
 }
-}
 
 #intro {
 	display: flex;
+	margin-top: 2em;
+    margin-bottom: 1em;
+}
 }
