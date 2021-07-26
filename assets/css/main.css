@@ -3195,10 +3195,7 @@ span {
 		width:0px;
 		animation: reveal 7s infinite;
 	  }
-
-.lead {
-	font-size: 2.7rem!important;
-}
+	
 
 .image.featured {
 	width: 75%;
@@ -3252,7 +3249,7 @@ flex-direction: column;
 	overflow:hidden;
 	white-space:nowrap;
 	display: none;
-	font-size: 2.3rem;
+	font-size: 2rem;
   }
   
   .lead:first-of-type {    
@@ -3276,8 +3273,8 @@ flex-direction: column;
   }
   
   @keyframes slidein {
-	  0% { margin-left:-700px; }
-	  20% { margin-left:-700px; }
+	  0% { margin-left:-800px; }
+	  20% { margin-left:-800px; }
 	  35% { margin-left:0px; }
 	  100% { margin-left:0px; }
   }
@@ -3285,9 +3282,9 @@ flex-direction: column;
   @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:270px;}
+    30% {width:200px;}
     80% {opacity:1;}
-    100% {opacity:0;width:270px;}
+    100% {opacity:0;width:200px;}
 }
 
   .promo {
