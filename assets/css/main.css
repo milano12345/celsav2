@@ -194,7 +194,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		padding-bottom: .5em;
 	}
 
 /* Container */
@@ -2628,12 +2628,12 @@ span {
 			}
 
 			#features-wrapper {
-				padding: 0 15px 40px 15px;
+			    padding: 0px 40px 50px 40px;
 				background-color: #BB000E;
 			}
 
 			#main-wrapper, #footer-wrapper {
-				padding: 40px 30px 40px 30px;
+				padding: 1px 40px 0px 40px;
 			}
 
 			#footer-wrapper {
@@ -3068,7 +3068,6 @@ span {
 	}
 	
 	.container {
-	  width: 90%;
 	  margin: 0 auto;
 	  position: relative;
 	}
@@ -3219,7 +3218,7 @@ span {
 @media screen and (min-width: 1000px) {
 
 .image.featured {
-	width: 45%;
+	width: 75%;
 }
  .col-4 .col-12-medium {
 display: flex;
