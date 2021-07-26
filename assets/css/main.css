@@ -3290,9 +3290,9 @@ flex-direction: column;
   }
 
   .stop-scrolling {
-	height: 130%;
+	height: 100%;
 	width: 100%;
-	/* overflow: hidden; */
+	overflow: hidden;
 	position: fixed;
   }
 

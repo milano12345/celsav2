@@ -422,4 +422,4 @@ setTimeout(function(){
 
 setTimeout(function(){
 			$('body').removeClass('stop-scrolling')
-			},3800);
+			},3500);
