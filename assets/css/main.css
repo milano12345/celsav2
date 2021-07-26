@@ -212,7 +212,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.container {
-				width: 960px;
+				width: 80%;
 			}
 
 		}
@@ -1888,13 +1888,13 @@ input, select, textarea {
 	}
 
 	#features-wrapper {
-		padding: 2em 0 3em 0;
+		padding: 1em 0 4em 1em;
 	}
 
 	#main-wrapper {
 		background: #fff;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
-		padding: 5em 0 5em 0;
+		padding: 3em 0 5em 0;
 	}
 
 	#footer-wrapper {
@@ -3025,7 +3025,7 @@ span {
 	  -webkit-font-smoothing: antialiased;
 	  -moz-font-smoothing: antialiased;
 	  -o-font-smoothing: antialiased;
-	  font-smoothing: antialiased;
+	  font-display: antialiased;
 	  text-rendering: optimizeLegibility;
 	}
 	
@@ -3037,10 +3037,6 @@ span {
 	  color: #777;
 	}
 	
-	.container {
-	  margin: 0 auto;
-	
-	}
 	
 	#contact input[type="text"],
 	#contact input[type="email"],
@@ -3294,9 +3290,9 @@ flex-direction: column;
   }
 
   .stop-scrolling {
-	height: 100%;
+	height: 130%;
 	width: 100%;
-	overflow: hidden;
+	/* overflow: hidden; */
 	position: fixed;
   }
 
