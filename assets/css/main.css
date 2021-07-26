@@ -3243,7 +3243,6 @@ flex-direction: column;
   }
   
   .lead:last-of-type span {
-	margin-left:-355px;
 	animation: slidein 7s infinite;
   }
   
@@ -3262,12 +3261,12 @@ flex-direction: column;
   }
   
   @keyframes reveal {
-	  0% {opacity:0;width:0px;}
-	  20% {opacity:1;width:0px;}
-	  30% {width:355px;}
-	  80% {opacity:1;}
-	  100% {opacity:0;width:355px;}
-  }
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:230px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:230px;}
+}
   
   body {
 	height:100vh;
@@ -3278,3 +3277,12 @@ flex-direction: column;
 	-webkit-perspective: 1000;
 	-webkit-transform: translate3d(0,0,0);
   } 
+
+  .promo {
+	  text-align: center;
+  }
+
+  .leadcontainer {
+	  display: flex;
+	  justify-content: center;
+  }
