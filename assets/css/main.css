@@ -426,9 +426,7 @@ input, select, textarea {
 			margin-left: -40px;
 		}
 
-			.row > * {
-				padding: 15px 12px 12px 29px;
-			}
+	
 
 			.row.gtr-uniform {
 				margin-top: -40px;
@@ -1774,7 +1772,7 @@ input, select, textarea {
 		}
 
 			.box.feature .inner {
-				padding: 4em 2em 3em 2em;
+				padding: 4em 2em 2.7em 2em;
 			}
 
 			.box.feature h2 {
@@ -1789,11 +1787,6 @@ input, select, textarea {
 				position: relative;
 				margin: 0;
 			}
-
-				.box.feature .image img {
-					border-bottom-left-radius: 0;
-					border-bottom-right-radius: 0;
-				}
 
 /* Icons */
 
@@ -2246,10 +2239,6 @@ span {
 				text-align: center;
 			}
 
-			#footer-wrapper {
-				padding: 6em 0 4em 0;
-			}
-
 		/* Header */
 
 			#header {
@@ -2569,7 +2558,7 @@ span {
 
 					.box.feature .inner {
 						padding: 30px 25px 30px 25px;
-						font-size: 1.2rem;
+						width: 107%;
 					}
 
 					.box.feature p {
@@ -2581,10 +2570,6 @@ span {
 						margin: 0;
 					}
 
-						.box.feature .image img {
-							border-bottom-left-radius: 0;
-							border-bottom-right-radius: 0;
-						}
 
 		/* Widgets */
 
@@ -2616,7 +2601,7 @@ span {
 			}
 
 			#features-wrapper {
-			    padding: 0px 40px 50px 40px;
+				padding: 1px 40px 50px 57px;
 				background-color: #BB000E;
 			}
 
@@ -3057,7 +3042,7 @@ span {
 	
 	.container {
 	  margin: 0 auto;
-	  position: relative;
+	
 	}
 	
 	#contact input[type="text"],
@@ -3224,13 +3209,39 @@ flex-direction: column;
 }
 }
 
+
+@media screen and (min-width: 600px) {
+
+	.insta {
+		width: 107%;
+		border: 1px solid black;
+	}
+
+	.image.featured {
+		width: 100%;
+	}
+	 .col-4 .col-12-medium {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	} 
+
+	#intro {
+		display: flex;
+		flex-direction: row-reverse;
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+	}
+
+
+
 .lead {
 	display:inline-block;
 	overflow:hidden;
 	white-space:nowrap;
-	animation: fadeIn 3s;
 	display: none;
-    animation-fill-mode: forwards;
+	font-size: 1.9rem;
   }
   
   .lead:first-of-type {    
@@ -3263,9 +3274,9 @@ flex-direction: column;
   @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:230px;}
+    30% {width:200px;}
     80% {opacity:1;}
-    100% {opacity:0;width:230px;}
+    100% {opacity:0;width:200px;}
 }
   
   body {
