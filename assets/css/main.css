@@ -87,15 +87,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
-		background-image: linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
 		background-color: #f7f7f7;
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -2593,7 +2589,7 @@ span {
 		/* Wrappers */
 
 			#header-wrapper {
-				padding: 3em 0 1.5em 0;
+				padding: 1.6em 0 1.5em 0;
 				background: radial-gradient(#f10a0a, #861818)
 			}
 
@@ -2602,7 +2598,7 @@ span {
 			}
 
 			#features-wrapper {
-				padding: 1px 40px 50px 57px;
+				padding: 1px 40px 50px 59px;
 				background-color: #BB000E;
 			}
 
@@ -3296,3 +3292,10 @@ flex-direction: column;
 	  justify-content: center;
 	  margin-top: 2.5rem;
   }
+
+  .stop-scrolling {
+	height: 100%;
+	overflow: hidden;
+	position: fixed;
+  }
+

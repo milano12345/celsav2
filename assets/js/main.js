@@ -419,3 +419,7 @@ setTimeout(function(){
 setTimeout(function(){
 		$('.question').fadeOut('slow')
 		},3500);
+
+setTimeout(function(){
+			$('body').removeClass('stop-scrolling')
+			},4000);
