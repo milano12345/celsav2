@@ -3270,7 +3270,6 @@ flex-direction: column;
   }
   
   body {
-	text-align:center;
 	height:100vh;
 	backface-visibility: hidden;
 	perspective: 1000;
