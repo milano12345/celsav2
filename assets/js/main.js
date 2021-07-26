@@ -408,10 +408,14 @@ var Modal = (function() {
   
   Modal.init();
 
-  setTimeout(function() {
+setTimeout(function() {
     $('#promo').fadeOut('slow');
 }, 3500);
 
 setTimeout(function(){
 	$('.lead').fadeIn('slow')
 	},4000);
+
+setTimeout(function(){
+		$('.question').fadeOut('slow')
+		},3500);
