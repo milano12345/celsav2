@@ -2558,7 +2558,7 @@ span {
 
 					.box.feature .inner {
 						padding: 30px 25px 30px 25px;
-						width: 107%;
+						width: 100%;
 					}
 
 					.box.feature p {
@@ -3190,6 +3190,15 @@ span {
 
 @media screen and (min-width: 1000px) {
 
+	.lead:last-of-type {
+		width:0px;
+		animation: reveal 7s infinite;
+	  }
+
+.lead {
+	font-size: 2.7rem!important;
+}
+
 .image.featured {
 	width: 75%;
 }
@@ -3207,6 +3216,7 @@ flex-direction: column;
 	margin-top: 2em;
     margin-bottom: 1em;
 }
+
 }
 
 
@@ -3241,7 +3251,7 @@ flex-direction: column;
 	overflow:hidden;
 	white-space:nowrap;
 	display: none;
-	font-size: 1.9rem;
+	font-size: 2.3rem;
   }
   
   .lead:first-of-type {    
@@ -3265,8 +3275,8 @@ flex-direction: column;
   }
   
   @keyframes slidein {
-	  0% { margin-left:-800px; }
-	  20% { margin-left:-800px; }
+	  0% { margin-left:-700px; }
+	  20% { margin-left:-700px; }
 	  35% { margin-left:0px; }
 	  100% { margin-left:0px; }
   }
@@ -3274,9 +3284,9 @@ flex-direction: column;
   @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:200px;}
+    30% {width:270px;}
     80% {opacity:1;}
-    100% {opacity:0;width:200px;}
+    100% {opacity:0;width:270px;}
 }
   
   body {
@@ -3296,4 +3306,6 @@ flex-direction: column;
   .leadcontainer {
 	  display: flex;
 	  justify-content: center;
+	  flex-wrap: wrap;
+	  margin-top: 2.5rem;
   }
