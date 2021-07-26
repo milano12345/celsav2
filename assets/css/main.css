@@ -670,6 +670,7 @@ input, select, textarea {
 					.row.gtr-uniform {
 						margin-top: -40px;
 					}
+				
 
 						.row.gtr-uniform > * {
 							padding-top: 40px;
@@ -2853,7 +2854,7 @@ span {
 	  }
 	  .modal__dialog {
 		max-width: 600px;
-		padding: 1.5rem;
+		padding: .5rem;
 	  }
 	  .modal__content {
 		will-change: transform, opacity;
@@ -3288,16 +3289,6 @@ flex-direction: column;
     80% {opacity:1;}
     100% {opacity:0;width:270px;}
 }
-  
-  body {
-	height:100vh;
-	backface-visibility: hidden;
-	perspective: 1000;
-	transform: translate3d(0,0,0);
-	-webkit-backface-visibility: hidden;
-	-webkit-perspective: 1000;
-	-webkit-transform: translate3d(0,0,0);
-  } 
 
   .promo {
 	  text-align: center;
