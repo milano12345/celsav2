@@ -2598,6 +2598,7 @@ span {
 
 			#features-wrapper {
 				padding: 1.5rem;
+				padding-top: 1px;
 				background-color: #BB000E;
 			}
 
