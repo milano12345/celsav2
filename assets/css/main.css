@@ -3295,3 +3295,4 @@ flex-direction: column;
 	position: fixed;
   }
 
+  body {overflow-x:hidden;}
