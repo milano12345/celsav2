@@ -3183,6 +3183,10 @@ span {
 
 @media screen and (min-width: 1000px) {
 
+	#promo {
+		width: 40%;
+	}
+
 	.lead:last-of-type {
 		width:0px;
 		animation: reveal 7s infinite;
