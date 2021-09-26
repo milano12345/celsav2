@@ -2293,6 +2293,7 @@ span {
 				padding: 0;
 			}
 
+			@media screen and (min-width:715px){.promo{height: 0rem;}}
 		/* Nav */
 
 			#page-wrapper {
