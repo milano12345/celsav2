@@ -3283,4 +3283,5 @@ flex-direction: column;
   .leadcontainer {
 	  display: flex;
 	  justify-content: center;
+	  margin-top: 2.5rem;
   }
