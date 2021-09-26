@@ -3235,6 +3235,7 @@ flex-direction: column;
 
 
 .lead {
+	display: none;
 	overflow:hidden;
 	white-space:nowrap;
 	font-size: 2rem;
