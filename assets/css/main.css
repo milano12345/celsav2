@@ -2724,7 +2724,7 @@ span {
 		width: 0;
 		top: -10.3rem;
 		left: 50%;
-		transform: translate3d(0px, 254px, 0px) scale(0.28, 0.28);
+		transform: translate3d(0px, 254px, 0px) scale(0.28, 0.28)!important;
 	  }
 	  .featured-slider li {
 		-webkit-user-select: none;
