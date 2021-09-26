@@ -2598,7 +2598,6 @@ span {
 
 			#features-wrapper {
 				padding: 1.5rem;
-				padding-top: 1px;
 				background-color: #BB000E;
 			}
 
@@ -3283,5 +3282,5 @@ flex-direction: column;
   .leadcontainer {
 	  display: flex;
 	  justify-content: center;
-	  margin-top: 2.5rem;
+	  flex-wrap: wrap;
   }
