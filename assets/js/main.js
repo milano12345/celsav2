@@ -408,20 +408,14 @@ var Modal = (function() {
   
   Modal.init();
 
-setTimeout(function() {
-    $('#promo').fadeOut('slow');
-}, 3500);
+// setTimeout(function() {
+//     $('#promo').fadeOut('slow');
+// }, 3500);
 
 setTimeout(function(){
 	$('.lead').fadeIn('slow')
-	},4000);
+	},3000);
 
-setTimeout(function(){
-		$('.question').fadeOut('slow')
-		},3500);
-
-setTimeout(function(){
-			$('body').removeClass('stop-scrolling')
-			},3500);
+$('#promo').fadeIn('slow')
 
 			$.each($('*'), function() { if ($(this).width() > $('body').width()) { console.log($(this).get(0)); } }).length;

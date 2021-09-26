@@ -2724,8 +2724,9 @@ span {
 		width: 0;
 		top: -10.3rem;
 		left: 50%;
-		transform: translate3d(0px, 254px, 0px) scale(0.28, 0.28)!important;
+		transform: translate3d(0px, 254px, 0px) scale(0.28, 0.28);
 	  }
+
 	  .featured-slider li {
 		-webkit-user-select: none;
 		   -moz-user-select: none;
@@ -3198,9 +3199,6 @@ display: flex;
 align-items: center;
 flex-direction: column;
 } 
-#promo {
-	width: 40%!important;
-}
 
 #intro {
 	display: flex;
@@ -3238,10 +3236,8 @@ flex-direction: column;
 
 
 .lead {
-	display:inline-block;
 	overflow:hidden;
 	white-space:nowrap;
-	display: none;
 	font-size: 2rem;
   }
   
@@ -3287,12 +3283,4 @@ flex-direction: column;
   .leadcontainer {
 	  display: flex;
 	  justify-content: center;
-	  margin-top: 2.5rem;
-  }
-
-  .stop-scrolling {
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-	position: fixed;
   }
