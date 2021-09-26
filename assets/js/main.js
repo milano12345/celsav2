@@ -416,6 +416,5 @@ setTimeout(function(){
 	$('.lead').fadeIn('slow')
 	},1500);
 
-$('#promo').fadeIn('slow')
 
 			$.each($('*'), function() { if ($(this).width() > $('body').width()) { console.log($(this).get(0)); } }).length;
