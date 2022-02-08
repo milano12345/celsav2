@@ -1888,10 +1888,6 @@ input, select, textarea {
 		padding: 3em 0 3em 0;
 	}
 
-	#features-wrapper {
-		padding: 1em 0 4em 1em;
-	}
-
 	#main-wrapper {
 		background: #fff;
 		box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.05);
@@ -2600,12 +2596,12 @@ span {
 			}
 
 			#features-wrapper {
-				padding: 1.5rem;
 				background-color: #BB000E;
+				padding: 1em 1.5rem 3rem 1.5rem;
 			}
 
 			#main-wrapper, #footer-wrapper {
-				padding: 1px 40px 0px 40px;
+				padding: 1px 40px 40px 40px;
 			}
 
 			#footer-wrapper {
@@ -3278,11 +3274,7 @@ flex-direction: column;
     100% {opacity:0;width:200px;}
 }
 
-  .promo {
-	  text-align: center;
-	  height: 37rem;
-  }
-
+  
   .leadcontainer {
 	  display: flex;
 	  justify-content: center;
