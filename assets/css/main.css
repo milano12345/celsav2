@@ -200,7 +200,7 @@ input, select, textarea {
 		max-width: 100%;
 		width: 1400px;
 	}
-
+	
 	@media screen and(min-width: 715px){.promo{display: none;}}
 
 		@media screen and (max-width: 1680px) {
@@ -236,6 +236,23 @@ input, select, textarea {
 		}
 
 /* Row */
+
+.promo {
+	animation: fadeIn forwards 1s;
+	-webkit-animation: fadeIn forwards 1s;
+	-moz-animation: fadeIn forwards 1s;
+	-o-animation: fadeIn forwards 1s;
+	-ms-animation: fadeIn forwards 1s;
+  }
+  @keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% {opacity:0;}
+	100% {opacity:1;}
+  }
 
 
 		.row > * {
