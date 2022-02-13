@@ -3436,3 +3436,6 @@ flex-direction: column;
 	}
   }
   
+.inner {
+	text-align: left;
+}
