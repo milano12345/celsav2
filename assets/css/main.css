@@ -3325,7 +3325,7 @@ flex-direction: column;
 	width: 98%;
 	height: 95%;
 	top: 0;
-	background-color: #53b3cb;
+	background-color: maroon;
 	border-radius: 2vw;
 	-webkit-filter: drop-shadow(5px 15px 3px rgba(0, 0, 0, 0.4));
 	filter: drop-shadow(5px 15px 3px rgba(0, 0, 0, 0.4));
@@ -3358,7 +3358,7 @@ flex-direction: column;
 	z-index: 4;
   }
   .listh2 {
-	background-color: #53b3cb;
+	background-color: red;
 	padding: 0.1em;
   }
   /* .listitem:nth-child(3n+1) .listh2,.listitem:nth-child(3n+1) {
@@ -3423,8 +3423,8 @@ flex-direction: column;
   @media (min-width:1200px) { 
 	.list {
 	  grid-template-columns: repeat(5,1fr);
-	  grid-column-gap: 1vw;
-	  margin: 4.5vw 6vw 6vw 0.5vw;
+	  grid-column-gap: 2vw;
+	  margin: 4.5vw -10vw 5vw 0.5vw;;
 	}
   }
   
