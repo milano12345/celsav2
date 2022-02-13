@@ -3436,6 +3436,21 @@ flex-direction: column;
 	}
   }
   
-.inner {
-	text-align: left;
+
+.card-inner {
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.card:hover .card-inner {
+    transform: rotateY(180deg) rotateZ(18.03624deg) translate(0%, 10%) scale(1.5);
+	-webkit-transform: rotateY(180deg) rotatez(-17.96376deg) translate(0%, 10%) scale(1.5);
+}
+.card-front, .card-back {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+.card-back {
+    transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
 }
