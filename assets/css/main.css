@@ -237,13 +237,13 @@ input, select, textarea {
 
 /* Row */
 
-.promo {
+/* .promo {
 	animation: fadeIn forwards 1s;
 	-webkit-animation: fadeIn forwards 1s;
 	-moz-animation: fadeIn forwards 1s;
 	-o-animation: fadeIn forwards 1s;
 	-ms-animation: fadeIn forwards 1s;
-  }
+  } */
   @keyframes fadeIn {
 	0% {opacity:0;}
 	100% {opacity:1;}
@@ -3393,7 +3393,7 @@ flex-direction: column;
   }
 
   .listitem:hover .listh2{ 
-	transform: translatex(200%) rotateY(180deg) translate3d(0,0,0);
+	transform: translatex(300%) rotateY(180deg) translate3d(0,0,0);
   }
   
   @media (min-width:300px) { 
